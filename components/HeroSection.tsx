@@ -12,8 +12,8 @@ const HeroSection = () => {
           <Image
             src="/profile.jpeg"
             alt=""
-            width={325}
-            height={325}
+            width={350}
+            height={350}
             className="rounded-full shadow-2xl"
           />
         </div>
@@ -27,6 +27,7 @@ const HeroSection = () => {
             based in Kolkata, WB. Working towards creating software that
             makes life easier and more meaningful.
           </p>
+        
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
@@ -44,6 +45,7 @@ const HeroSection = () => {
             download>
               Download Resume
           </a>
+          
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
