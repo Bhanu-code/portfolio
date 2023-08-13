@@ -6,7 +6,7 @@ jobs:
       - image: cimg/node:15.0.1
     steps:
       - checkout
-      - run: npm run dev
+      - run: node --version
 
 workflows:
   build_now:
