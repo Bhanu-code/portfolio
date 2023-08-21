@@ -3,13 +3,13 @@ import { AiOutlineMail, AiOutlineMobile } from "react-icons/ai";
 
 function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className="flex items-center justify-center">
       <h1 className="my-10 text-center font-bold text-4xl">
         Contact Me
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
-      <div className="flex flex-col  lg:flex-row  items-center justify-center space-x-20 mb-1">
+      <div className="flex flex-col lg:flex-row sm:justify-center sm:align-items items-center justify-center space-x-20 mb-1">
       
         <div className="mail flex flex-row sm:flex-col items-center justify-center">
           <a href="https://mail.google.com/" rel="noreferrer" target="_blank">
