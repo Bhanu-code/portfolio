@@ -14,11 +14,11 @@ const projects = [
     link: "https://codexchat.netlify.app/",
   },
   {
-    name: "Unichatup",
-    description: "Unichatup is a chat application build with Reactjs, chatengine.io & firebase. You can create your own chat room, add users and chat with people.",
-    image: "/unichat.jpg",
-    github: "https://github.com/Bhanu-code/chatup",
-    link: "https://unichatup.netlify.app",
+    name: "CryptoSys",
+    description: "CryptoSys is a cryptocurrency details app with latest cryptos, news & crypto exchange statistics build with React Redux toolikt, Ant design & rapidapi",
+    image: "/cryptosys.jpg",
+    github: "https://github.com/Bhanu-code/-react-crypto-app",
+    link: "https://cryptosys.netlify.app",
   },
   {
     name: "React Weather App",
