@@ -80,8 +80,8 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/developer.avif"
-              alt="developer_avif"
+              src="/developer.jpg"
+              alt="developer_image"
               width={350}
               height={350}
               className="hidden md:block md:relative md:bottom-0 my-3 md:left-32 md:z-0"
