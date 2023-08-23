@@ -3,7 +3,7 @@ import { AiOutlineMail, AiOutlineMobile } from "react-icons/ai";
 
 function Contact() {
   return (
-    <section id="contact" className="flex items-center justify-center">
+    <section id="contact" >
       <h1 className="my-10 text-center font-bold text-4xl">
         Contact Me
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
