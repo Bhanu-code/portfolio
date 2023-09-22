@@ -4,6 +4,15 @@ import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
 
+import {
+  AiOutlineGithub,
+  AiOutlineTwitter,
+  AiOutlineLinkedin,
+  
+} from "react-icons/ai"
+
+import { SiHashnode } from 'react-icons/si';
+
 const HeroSection = () => {
   return (
     <section id="home">
@@ -28,6 +37,47 @@ const HeroSection = () => {
             based in Kolkata, WB. Working towards creating software that
             makes life easier and more meaningful.
           </p>
+
+          
+        <div className="flex flex-row mr-10 ml-0 w-1/2 items-center justify-center space-x-10 mb-8">
+          <a href="https://github.com/Bhanu-code" rel="noreferrer" target="_blank">
+            <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://twitter.com/ChowhanBhanu"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineTwitter
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/bhanu-chowhan-130816266/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://metimetraveler.hashnode.dev"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <SiHashnode
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={25}
+            />
+          </a>
+        </div>
         
           <Link
             to="projects"
@@ -46,7 +96,6 @@ const HeroSection = () => {
             download>
               Download Resume
           </a>
-          
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
