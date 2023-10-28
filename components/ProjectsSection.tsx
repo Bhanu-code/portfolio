@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Next.Store",
     description:
-      "Next.Store is an ecommerce web app where you can buy products online and make payments online.",
+      "Next.Store is an full stack ecommerce web app where you can buy products online and make payments online.",
     image: "/nextstore.jpg",
     github: "https://github.com/Bhanu-code/next_store_client",
     link: "https://nextstoreweb.netlify.app/",
