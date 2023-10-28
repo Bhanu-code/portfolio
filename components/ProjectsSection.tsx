@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Next.Store",
+    description:
+      "Next.Store is an ecommerce web app where you can buy products online and make payments online.",
+    image: "/nextstore.jpg",
+    github: "https://github.com/Bhanu-code/next_store_client",
+    link: "https://nextstoreweb.netlify.app/",
+  },
+  {
     name: "ChatGPT Clone",
     description:
       "Codexchat is a web app that generates an output sentence of anything you submit thorugh prompt using OpenAiapi.It has it's own server.",
