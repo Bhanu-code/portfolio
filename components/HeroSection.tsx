@@ -2,7 +2,9 @@
 import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
-import { HiArrowDown } from "react-icons/hi"
+import { HiArrowDown  } from "react-icons/hi"
+import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter } from "react-icons/ai"
+import { SiHashnode } from 'react-icons/si';
 
 
 const HeroSection = () => {
@@ -16,7 +18,7 @@ const HeroSection = () => {
             width={350}
             height={350}
             className="rounded-full shadow-2xl"
-            // style=
+          
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
@@ -30,10 +32,54 @@ const HeroSection = () => {
             makes life easier and more meaningful.
           </p>
 
+          <div className="flex flex-row items-center gap-5 justify-center mb-5 space-x-5 sm:w-100 md:w-1/2">
+          <a href="https://github.com/Bhanu-code" rel="noreferrer" target="_blank">
+            <AiOutlineGithub
+            style={{ color: 'black' }}
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://twitter.com/ChowhanBhanu"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineTwitter
+            style={{ color:'#1DA1F2' }}
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/bhanu-chowhan-130816266/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineLinkedin
+            style={{ color: '#0077b5' }}
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://metimetraveler.hashnode.dev"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <SiHashnode
+            style={{ color:'#0000FF' }}
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={25}
+            />
+          </a>
+        </div>
+
         
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 font-semibold px-6 py-3 mt-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
             smooth={true}
