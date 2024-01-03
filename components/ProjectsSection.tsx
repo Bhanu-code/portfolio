@@ -10,7 +10,7 @@ const projects = [
     description:
       "Next.Store is an full stack Ecommerce web app where you can buy products online and make payments online.",
     image: "/nextstore.jpg",
-    TechStack: "Next.js, Material-UI, Styled-components, Redux-toolit, Node.js, Express.js, MongoDB",
+    TechStack: "Next.js, Material-UI, Styled-components, Redux-toolkit, Node.js, Express.js, JWT, MongoDB Atlas",
     github: "https://github.com/Bhanu-code/next_store_client",
     link: "https://nextstoreweb.netlify.app/",
   },
@@ -19,6 +19,7 @@ const projects = [
     description:
       "Videomotion is a video streaming web app that build with React & Material UI. You can search videos, get feed, see your hisory, delete them etc.",
     image: "/videomotion.jpg",
+    TechStack: "React.js, Material-UI, Redux-toolkit, Node.js, Express.js, JWT, MySql, RapidAPI, Aiven Cloud",
     github: "https://github.com/Bhanu-code/youtube_clone_client",
     link: "https://videomotion.netlify.app/",
   },
@@ -26,6 +27,7 @@ const projects = [
     name: "CryptoSys",
     description: "CryptoSys is a cryptocurrency details app with latest cryptos, news & crypto exchange statistics build with React Redux toolikt, Ant design & rapidapi",
     image: "/cryptosys.jpg",
+    TechStack: "React.js, Ant Design, RapidAPI, Chart.js",
     github: "https://github.com/Bhanu-code/-react-crypto-app",
     link: "https://cryptosys.netlify.app",
   },
@@ -34,6 +36,7 @@ const projects = [
     description:
       "Realtime weather details provider app build with Reactjs. This app uses openweather-api to fetch weather details.",
     image: "/weather.jpg",
+    TechStack: "React.js, Open Weather API",
     github: "https://github.com/Bhanu-code/weatherapp",
     link: "https://weathermy.netlify.app/",
   },
@@ -68,6 +71,7 @@ const ProjectsSection = () => {
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
+                      <br />
                       <br />
                       <span className="text-l">Tech Stack: {project?.TechStack}</span>
                     </p>
