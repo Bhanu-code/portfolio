@@ -2,21 +2,23 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript/TypeScript" },
-  { skill: "Bootstrap" },
-  { skill: "Ant-Design" },
-  { skill: "MongoDB"},
-  { skill: "Java" },
-  { skill: "Docker" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git/Github" },
-  { skill: "Linux" },
-  { skill: "CircleCI"}
+  { skill: "Java", path:'/icons/java.png' },
+  { skill: "Spring/SpringBoot", path:'/icons/springboot.png' },
+  { skill: "Python", path:'/icons/python.png' },
+  { skill: "Git/Github", path:'/icons/github.png' },
+  { skill: "JavaScript", path:'/icons/javascript.png' },
+  { skill: "TypeScript", path:'/icons/typescript.png' },
+  { skill: "Bootstrap", path:'/icons/bootstrap.png' },
+  { skill: "Tailwind CSS", path:'/icons/tailwind.png' },
+  { skill: "Ant-Design", path:'/icons/antdesign.png' },
+  { skill: "Material-UI", path:'/icons/materialui.png' },
+  { skill: "React", path:'/icons/reactjs.png' },
+  { skill: "Next.js", path:'/icons/nextjs.png' },
+  { skill: "MongoDB", path:'/icons/mongodb.png'},
+  { skill: "MySQL", path:'/icons/mysql.png'},
+  { skill: "Linux", path:'/icons/linux.png' },
+  { skill: "Docker", path:'/icons/docker.png' },
+  { skill: "AWS Cloud", path:'/icons/aws.png'}
 ]
 
 const AboutSection = () => {
@@ -70,12 +72,17 @@ const AboutSection = () => {
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
-                  <p
+                  <>
+                   <p
                     key={idx}
                     className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
                   >
                     {item.skill}
+                    &nbsp;
+                  <img src={item.path} alt="skill_icon" style={{ width:'20px', height:'20px', display:'inline' }} />
                   </p>
+                  </>
+                 
                 )
               })}
             </div>

@@ -10,16 +10,17 @@ const projects = [
     description:
       "Next.Store is an full stack Ecommerce web app where you can buy products online and make payments online.",
     image: "/nextstore.jpg",
+    TechStack: "Next.js, Material-UI, Styled-components, Redux-toolit, Node.js, Express.js, MongoDB",
     github: "https://github.com/Bhanu-code/next_store_client",
     link: "https://nextstoreweb.netlify.app/",
   },
   {
-    name: "ChatGPT Clone",
+    name: "VideoMotion",
     description:
-      "Codexchat is a web app that generates an output sentence of anything you submit thorugh prompt using OpenAiapi.It has it's own server.",
-    image: "/codex.jpg",
-    github: "https://github.com/Bhanu-code/codex",
-    link: "https://codexchat.netlify.app/",
+      "Videomotion is a video streaming web app that build with React & Material UI. You can search videos, get feed, see your hisory, delete them etc.",
+    image: "/videomotion.jpg",
+    github: "https://github.com/Bhanu-code/youtube_clone_client",
+    link: "https://videomotion.netlify.app/",
   },
   {
     name: "CryptoSys",
@@ -67,6 +68,8 @@ const ProjectsSection = () => {
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
+                      <br />
+                      <span className="text-l">Tech Stack: {project?.TechStack}</span>
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
