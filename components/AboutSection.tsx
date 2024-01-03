@@ -14,6 +14,7 @@ const skills = [
   { skill: "Material-UI", path:'/icons/materialui.png' },
   { skill: "React", path:'/icons/reactjs.png' },
   { skill: "Next.js", path:'/icons/nextjs.png' },
+  { skill: "Node.js", path:'/icons/nodejs.png' },
   { skill: "MongoDB", path:'/icons/mongodb.png'},
   { skill: "MySQL", path:'/icons/mysql.png'},
   { skill: "Linux", path:'/icons/linux.png' },
