@@ -26,7 +26,7 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
+              MERN/LAMP Stack Developer{" "}
             </span>
             based in Kolkata, WB. Working towards creating software that
             makes life easier and more meaningful.
