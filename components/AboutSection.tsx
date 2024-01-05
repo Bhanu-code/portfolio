@@ -14,7 +14,7 @@ const skills = [
   { skill: "JavaScript", path: "/icons/javascript.png", type: "language" },
   { skill: "TypeScript", path: "/icons/typescript.png", type: "language" },
   { skill: "Bootstrap", path: "/icons/bootstrap.png", type: "frontend" },
-  { skill: "Tailwind CSS", path: "/icons/tailwind.png", type: "frotnend" },
+  { skill: "Tailwind CSS", path: "/icons/tailwind.png", type: "frontend" },
   { skill: "Ant-Design", path: "/icons/antdesign.png", type: "frontend" },
   { skill: "Material-UI", path: "/icons/materialui.png", type: "frontend" },
   { skill: "React", path: "/icons/reactjs.png", type: "frontend" },
