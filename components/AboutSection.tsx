@@ -4,7 +4,7 @@ import Image from "next/image";
 const skills = [
   { skill: "Java", path: "/icons/java.png", type: "language" },
   {
-    skill: "Spring/SpringBoot",
+    skill: "SpringBoot",
     path: "/icons/springboot.png",
     type: "backend",
   },
@@ -23,11 +23,11 @@ const skills = [
   { skill: "MongoDB", path: "/icons/mongodb.png", type: "backend" },
   { skill: "MySQL", path: "/icons/mysql.png", type: "backend" },
   { skill: "Linux", path: "/icons/linux.png", type: "operations" },
-  { skill: "Jenkins", path: "/icons/jenkins.png", type: "operations" },
+  // { skill: "Jenkins", path: "/icons/jenkins.png", type: "operations" },
   { skill: "Ansible", path: "/icons/ansible.png", type: "operations" },
   { skill: "CircleCI", path: "/icons/circleci.png", type: "operations" },
   { skill: "Docker", path: "/icons/docker.png", type: "operations" },
-  { skill: "Kubernetes", path: "/icons/kubernetes.png", type: "operations" },
+  // { skill: "Kubernetes", path: "/icons/kubernetes.png", type: "operations" },
   { skill: "Terraform", path: "/icons/terraform.png", type: "operations" },
   { skill: "AWS Cloud", path: "/icons/aws.png", type: "operations" },
 ];
@@ -166,7 +166,7 @@ const AboutSection = () => {
               })}
             </div>
 
-            <h3 className="font-bold">Operations</h3>
+            <h3 className="font-bold">DevOps</h3>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
