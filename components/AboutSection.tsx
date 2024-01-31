@@ -19,6 +19,7 @@ const skills = [
   { skill: "Material-UI", path: "/icons/materialui.png", type: "frontend" },
   { skill: "React", path: "/icons/reactjs.png", type: "frontend" },
   { skill: "Next.js", path: "/icons/nextjs.png", type: "frontend" },
+  { skill: "PHP", path: "/icons/php.png", type: "backend" },
   { skill: "Node.js", path: "/icons/nodejs.png", type: "backend" },
   { skill: "MongoDB", path: "/icons/mongodb.png", type: "backend" },
   { skill: "MySQL", path: "/icons/mysql.png", type: "backend" },
