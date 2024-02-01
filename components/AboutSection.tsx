@@ -21,6 +21,7 @@ const skills = [
   { skill: "Next.js", path: "/icons/nextjs.png", type: "frontend" },
   { skill: "PHP", path: "/icons/php.png", type: "backend" },
   { skill: "Node.js", path: "/icons/nodejs.png", type: "backend" },
+  { skill: "Express.js", path: "/icons/expressjs.png", type: "backend" },
   { skill: "MongoDB", path: "/icons/mongodb.png", type: "backend" },
   { skill: "MySQL", path: "/icons/mysql.png", type: "backend" },
   { skill: "Linux", path: "/icons/linux.png", type: "operations" },
