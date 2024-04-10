@@ -1,10 +1,19 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
+  {
+    name: "dbdrawer",
+    description:
+      "dbdrawer is a database schema visualisation cli package for nodejs environment. while developing your schemas of data models, instead of checking files again & again, you can visualise them on localhost. ",
+    image: "/mongo2.png",
+    TechStack: "javascript, ejs, mongoose, sequelize. ",
+    github: "https://github.com/Bhanu-code/dbdrawer-mongo",
+    link: "https://www.npmjs.com/package/dbdrawer-mongo",
+  },
   {
     name: "Next.Store",
     description:
