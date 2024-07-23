@@ -4,8 +4,8 @@ import Image from "next/image";
 const skills = [
   { skill: "Java", path: "/icons/java.png", type: "language" },
   {
-    skill: "SpringBoot",
-    path: "/icons/springboot.png",
+    skill: "Django REST",
+    path: "/icons/django.png",
     type: "backend",
   },
   { skill: "Python", path: "/icons/python.png", type: "language" },
@@ -19,7 +19,7 @@ const skills = [
   { skill: "Material-UI", path: "/icons/materialui.png", type: "frontend" },
   { skill: "React", path: "/icons/reactjs.png", type: "frontend" },
   { skill: "Next.js", path: "/icons/nextjs.png", type: "frontend" },
-  { skill: "PHP", path: "/icons/php.png", type: "backend" },
+  // { skill: "PHP", path: "/icons/php.png", type: "backend" },
   { skill: "Node.js", path: "/icons/nodejs.png", type: "backend" },
   { skill: "Express.js", path: "/icons/expressjs.png", type: "backend" },
   { skill: "MongoDB", path: "/icons/mongodb.png", type: "backend" },
